@@ -1,0 +1,7 @@
+t=int(input())
+for i in range(1,t+1):
+    s=str(int(input()))
+    f=int(s.replace('4','3'))
+    g=int(s)-int(f)
+    print("Case #%d: " %i+str(f)+" "+str(g))
+    
